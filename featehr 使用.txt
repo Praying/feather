@@ -1,23 +1,25 @@
-featherÊ¹ÓÃËµÃ÷
+featherä½¿ç”¨è¯´æ˜
 
-1. °²×°ÒÀÀµ¿â
+1. å®‰è£…ä¾èµ–åº“
 
-	boost¿â
+	booståº“
 	mysql-connector
-	mysql·şÎñÆ÷
-	uuid¿â(windowsÉÏ²»ĞèÒª°²×°£¬linuxÏÂĞèÒª°²×°)
+	mysqlæœåŠ¡å™¨
+	uuidåº“(windowsä¸Šä¸éœ€è¦å®‰è£…ï¼Œlinuxä¸‹éœ€è¦å®‰è£…)
 	
-	°²×°ÒÀÀµ¿â²Î¿¼ÕâÀï£ºhttps://github.com/qicosmos/feather/blob/master/feather_en.md
+	å®‰è£…ä¾èµ–åº“å‚è€ƒè¿™é‡Œï¼šhttps://github.com/qicosmos/feather/blob/master/feather_en.md
 	
-2. ±àÒë
+2. ç¼–è¯‘
 
-±àÒëÆ÷ÒªÇó£ºwin vs2017 15.7+, gcc 7.2+, clang 5.0+
+ç¼–è¯‘å™¨è¦æ±‚ï¼šwin vs2017 15.7+, gcc 7.2+, clang 5.0+
 
-winÏÂ±àÒë£¬ÉèÖÃmysql-connectorµÄÍ·ÎÄ¼şºÍ¿âÄ¿Â¼¼´¿É
+winä¸‹ç¼–è¯‘ï¼Œè®¾ç½®mysql-connectorçš„å¤´æ–‡ä»¶å’Œåº“ç›®å½•å³å¯
 
-linuxÏÂ:
+linuxä¸‹:
 
 git clone https://github.com/qicosmos/feather.git
+
+cd feather
 
 git submodule update --init
 
@@ -29,6 +31,6 @@ cmake ..
 
 make -j
 
-3. ÔËĞĞ
+3. è¿è¡Œ
 
-²Î¿¼https://github.com/qicosmos/feather/blob/master/feather%20compile%20and%20run%20in%20archlinux(marjaro).md
+å‚è€ƒhttps://github.com/qicosmos/feather/blob/master/feather%20compile%20and%20run%20in%20archlinux(marjaro).md
